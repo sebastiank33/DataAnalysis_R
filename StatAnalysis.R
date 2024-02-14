@@ -1,9 +1,4 @@
-##### Final Project
 ##### Name: Sebastian Kowalczyk 
-##### Version Number: 1
-
-
-
 
 ## Task 1: Load the Dataset into R (Code)
 
