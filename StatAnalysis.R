@@ -61,17 +61,16 @@ sd(THERMS.SQFT.MEAN.2010)
 
 	
 ## Task 4: Histogram for TOTAL.KWH
-	## Remember to save your plot and also submit it to Gradescope.
-
+	
 	# Code:
 	breakpts<-seq(0,225000,25000)
 	hist(TOTAL.KWH,breaks = breakpts, right = FALSE, ylim = c(0,800))
 
-	# Describe histogram: symmetry?
+	# symmetry?
 The histogram for total.kwh lacks symmetry because it is multimodal and right skewed
 in wich most of the data lies to the left of the histogra,
 
-	# Describe histogram: unimodal or bimodal or multimodal?
+	# Describe histogram:
 Multimodal with multiple heads "maxes or heads"
 
 
@@ -81,13 +80,12 @@ Multimodal with multiple heads "maxes or heads"
 
 	
 ## Task 5: Boxplot for TOTAL.KWH
-	## Remember to save your plot and also submit it to Gradescope.
-
+	##
 	# Code:
 
 	boxplot(TOTAL.KWH,horizontal = TRUE, ylim = c(0, 210000), main = "Boxplot of TOTAL.KWH")
 
-	# Are there outliers present?
+	# Describe
 
 		
 	  There appear to be no data points/circles outside of the upper and lower limits 
@@ -107,17 +105,15 @@ Multimodal with multiple heads "maxes or heads"
 		data:  TOTAL.KWH
 		W = 0.97627, p-value < 2.2e-16
 
-	# Do you think that your population is normally distributed?
-
 	# Reason: 
 		Since the p value is around  .002, which is clearly less then .05, we 
 		can conclude that population is not normally distributed
 
 		
 		
-	# Does your decision here match what you are seeing with your histogram from Task 4? Why or why not?
+	# Comparison to histogram from task 4?
 
-		Yes, the historgram for total KWH is clearly not normally distributed or symmtric at all
+		The historgram for total KWH is clearly not normally distributed or symmtric at all
 		
 		
 		
@@ -125,7 +121,6 @@ Multimodal with multiple heads "maxes or heads"
 
 		
 ## Task 7: Histogram for THERMS.SQFT.MEAN.2010
-	## Remember to save your plot and also submit it to Gradescope.
 
 	# Code:
 
@@ -148,7 +143,6 @@ however, in general very symmetric and bell like
 
 
 ## Task 8: Boxplot for THERMS.SQFT.MEAN.2010
-	## Remember to save your plot and also submit it to Gradescope.
 
 	# Code:
 		
@@ -184,7 +178,7 @@ Yes the population does appear to be normally distributed because the p value
 for THERMS is .056 which is greater then the .05 we compare to.
 		
 		
-	# Does your decision here match what you are seeing with your histogram from Task 7? Why or why not?
+	# Comparison to task 7
 
 		Yes it does because the histogram for THERMS is both symmetric and unimodal
 		as well as being rather bell shaped.
@@ -227,17 +221,6 @@ ud = 2415.464 = (difference of means)
 We are 98.2% confident that the interval of [2113.164, 2717.764], contains the 
 true difference in mean in average KWH for commerical and single family homes in the
 year of 2010
-
-	# We are interested in whether there is evidence that there is specific value difference between the building subtypes. (See PDF for more specifics.)
-		# Is there evidence this is true?
-No 
-
-		# Reason why or why not.
-The value of 2000 does not like inside of the confidence interval of [2113.164, 2717.764],
-it is just short.
-		
-		
-		
 		
 		
 		
@@ -290,9 +273,6 @@ where the sample estimate of p = 0.01539264
 	# Write an interpretation of your confidence interval.
 We are 97.3% confident that the proption of buildings that are less than 25
 years old lies between .01157229 and .02044811
-
-
-
 
 
 
